@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <unordered_map>
 
 namespace wt {
     enum class muscleGroups { // Main muscle groups
@@ -12,20 +12,7 @@ namespace wt {
         Chest
     };
 
-    class muscleStruct {
-    private:
-        muscleGroups m_mainGroup;
-        std::string m_name;
-    public:
-        muscleStruct()
-        {
-            m_mainGroup = muscleGroups::Null;
-            m_name = "null";
-        }
-        muscleStruct(muscleGroups mainGroup, std::string name) : m_mainGroup(mainGroup), m_name(name) {}
-    };
-
-    std::vector<muscleStruct> muscles = {   
+    std::unordered_map<std::string, muscleGroups> muscles;  
             muscleStruct(muscleGroups::Core, "Abdominals"),
             muscleStruct(muscleGroups::Core, "Abductors"),
             muscleStruct(muscleGroups::Arms, "Biceps"),

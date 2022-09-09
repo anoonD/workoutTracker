@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/workoutTracker.dir/src/main.cpp.o CMakeFiles/workoutTracker.dir/src/excercise.cpp.o CMakeFiles/workoutTracker.dir/src/wt.cpp.o -o workoutTracker 

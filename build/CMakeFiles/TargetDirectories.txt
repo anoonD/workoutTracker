@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/coding/workoutTracker/build/CMakeFiles/workoutTracker.dir
+/data/data/com.termux/files/home/coding/workoutTracker/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/coding/workoutTracker/build/CMakeFiles/rebuild_cache.dir
