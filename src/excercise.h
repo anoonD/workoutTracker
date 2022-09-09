@@ -1,11 +1,12 @@
 #pragma once
-#include "wt.cpp"
+#include "wt.h"
 
 namespace wt {
     class excercise {
     private:
         std::string m_name;
-        muscleStruct m_muscle;
+        std::string m_muscleName;
+        muscleGroups m_muscleGroup;
         int m_reps;
         double m_weight;
 
@@ -13,6 +14,6 @@ namespace wt {
         /* Constructors and Destructors */
         excercise();
         ~excercise();
-        excercise(std::string name, muscleStruct muscle, int reps, int weight);
+        excercise(std::string name, std::string muscleName, muscleGroups muscleGroup, int reps, int weight);
     };
 }
