@@ -3,3 +3,4 @@ shell.nix
 .replit
 cmake-build-debug
 bin
+.idea
