@@ -1,3 +1,5 @@
 build
 shell.nix
 .replit
+cmake-build-debug
+bin
