@@ -1,3 +1,0 @@
-C:/Users/mateo/Coding/workoutTracker/cmake-build-debug/CMakeFiles/workoutTracker.dir
-C:/Users/mateo/Coding/workoutTracker/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mateo/Coding/workoutTracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
