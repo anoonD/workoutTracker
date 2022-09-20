@@ -5,6 +5,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
 
 find_package (SQLite3)
 include_directories(${SQLite3_INCLUDE_DIRS})
+add_subdirectory(include/SQLiteCpp)
 
 add_executable(
     workoutTracker
@@ -14,4 +15,9 @@ add_executable(
     src/wt.h
 )
 target_include_directories(workoutTracker PRIVATE include)
-target_link_libraries (workoutTracker ${SQLite3_LIBRARIES})
+target_link_libraries (workoutTracker
+${SQLite3_LIBRARIES}
+  SQLiteCpp
+  pthread
+  dl
+)
